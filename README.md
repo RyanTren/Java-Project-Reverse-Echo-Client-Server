@@ -3,8 +3,6 @@
 # Description of Project:
 I developed an echo client that receives user messages and forwards them to the associated reverse echo server. The message is shown to the users when the server sends the reversed message. The user types "end" to the client in order to terminate the client program. The client waits for the server to send the message "dne" after sending the message to the reverse echo server. The client terminates itself by displaying the message "dne" if it receives it.
 
-# Explanation: 
-
 # Server:
 ⦁	Listens on a specific port number (default 5000). 
 ⦁	Accepts incoming client connections. 
